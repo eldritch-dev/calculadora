@@ -5,7 +5,7 @@ print("Escribe 'salir' para salir\n")
 previo = 0
 validador = True
 
-def realiza_calculo():
+def realizar_calculo():
     global validador
     global previo
     ecuacion = ""
@@ -28,4 +28,4 @@ def realiza_calculo():
             previo = eval(str(previo) + ecuacion)
 
 while validador:
-    realiza_calculo()
+    realizar_calculo()
